@@ -1,2 +1,1 @@
-# piada
 Mockup Minto
