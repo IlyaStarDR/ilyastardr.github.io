@@ -1,0 +1,252 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header {
+    width: 80%;
+    height: 130px;
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    width: 60%;
+}
+
+.nav-menu ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-menu img {
+    margin-right: 10px;
+}
+  
+a {
+    font-size: 19px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    color: #545454;
+    text-decoration: none;
+}
+
+.line-header {
+    background: #a292b3;
+    width: 100%;
+    height: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-container {
+    width: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.slides, .slides img {
+    width: 100%;
+}
+
+.slider-buttons {
+  position: absolute; 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: #cecece 1px solid;
+    border-bottom: #cecece 1px solid;
+}
+
+.section p {
+    font-size: 23px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 1.565;
+    text-align: center;
+    padding: 0 25px;
+}
+
+.section p > span {
+    color: rgb(130, 105, 157);
+    font-weight: bold;
+}
+
+.content-container {
+    width: 80%;
+    /* height: 390px; */
+    height: 26%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    flex-flow: row wrap; 
+    margin: 40px 0;
+}
+
+.content {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column; 
+}
+.caption {
+    height: 90px;
+    display: flex;
+    align-items: center; 
+    font-size: 31px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    color: rgb(80, 80, 81);
+    font-weight: bold;
+    line-height: 1.161;
+}
+
+.description {
+    height: 180px;
+    display: flex;
+    align-items: center; 
+    font-size: 15px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    color: rgb(131, 131, 131);
+    line-height: 1.867;
+    text-align: left;
+}
+
+.read-more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.read-more a {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    color: #959595;
+}
+
+.read-more img {
+    align-self: center;
+    color: #959595;
+    height: 7px;
+    margin-left: 5px;
+}
+
+.featured {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.featured .title {
+    width: 27%;
+    font-size: 23px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.565;
+    text-transform: capitalize;
+}
+
+.featured .title span {
+    font-weight: bold;
+}
+
+.featured .dashed-line {
+   width: 73%;
+   padding-top: 6px;
+}
+
+.featured hr {
+    border: 0.1px dashed #e2e2e2;
+    margin: 0.1em;
+}
+
+.client-logos-container {
+    height: 160px;
+    width: 80%;
+    display: flex;
+    align-items: center; 
+}
+
+.client-logos {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background: #f5f5f5;
+    border: 1px solid #dedede;
+}
+
+.client-logos img {
+    background: #f5f5f5;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #e8e8e8;
+}
+
+.footer .content {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .copyright {
+    font-size: 15px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    color: rgb(69, 66, 66);
+    line-height: 2.4;
+}
+
+.footer .links {
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.line-footer {
+    background: #a292b3;
+    width: 100%;
+    height: 8px;
+    margin: 0;
+    padding: 0;
+}  
